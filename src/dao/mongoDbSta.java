@@ -5,14 +5,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.function.Consumer;
 
-import org.gdal.ogr.ogr;
-
-import com.google.gson.JsonObject;
 import com.mongodb.AggregationOutput;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
-import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.Mongo;
 import com.mongodb.util.JSON;
@@ -34,8 +30,6 @@ public class mongoDbSta {
 	    }catch(Exception e){  
 	        e.printStackTrace();              
 	    }
-		//register drivers
-		ogr.RegisterAll();
 	}
 	
 	//按天统计每天的访问量

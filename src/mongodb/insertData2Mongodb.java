@@ -1,32 +1,19 @@
 package mongodb;
 
-import java.awt.Cursor;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
-import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.gdal.ogr.DataSource;
-import org.gdal.ogr.Layer;
-import org.gdal.ogr.ogr;
-
-import com.ibm.icu.text.DateFormat;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
-import com.mongodb.DBCursor;
-import com.mongodb.DBObject;
 import com.mongodb.Mongo;
-import com.mongodb.MongoException;
 
-import net.sf.json.util.NewBeanInstanceStrategy;
 import util.DateTime;
 
 public class insertData2Mongodb {
@@ -43,8 +30,6 @@ public class insertData2Mongodb {
 		    }catch(Exception e){  
 		        e.printStackTrace();              
 		    }
-			//register drivers
-			ogr.RegisterAll();
 			try {
 				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 				

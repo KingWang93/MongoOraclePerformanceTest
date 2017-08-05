@@ -82,8 +82,6 @@
 	<classpathentry kind="lib" path="F:/KingWang/postgraduate/Cloud Compute/课程演讲/ReadTxt/lib/XmlSchema-1.4.3.jar"/>
 	<classpathentry kind="lib" path="F:/KingWang/postgraduate/Cloud Compute/课程演讲/ReadTxt/lib/xmlsec-1.3.0.jar"/>
 	<classpathentry kind="lib" path="F:/KingWang/postgraduate/Cloud Compute/课程演讲/ReadTxt/lib/xstream-1.3.1.jar"/>
-	<classpathentry kind="lib" path="F:/KingWang/postgraduate/Cloud Compute/课程演讲/ReadTxt/gdal.jar"/>
 	<classpathentry kind="lib" path="F:/KingWang/postgraduate/Cloud Compute/课程演讲/ReadTxt/mongo-2.10.1.jar"/>
-	<classpathentry kind="lib" path="F:/KingWang/postgraduate/Cloud Compute/课程演讲/ReadTxt/org.json.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
